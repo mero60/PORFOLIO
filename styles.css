@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+main {
+    flex: 1; 
+}
+header {
+    background-color: #131030;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #ff9800;
+}
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+#home h1 {
+    font-size: 2.5rem;
+    color: #131030;
+    margin-bottom: 20px;
+}
+#competences h1 {
+    font-size: 2.5rem;
+    color: #131030;
+}
+#competences h2 {
+    color: #131030;
+    margin-top: 20px;
+}
+#competences p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #131030;
+}
+#projets h1 {
+    font-size: 2.5rem;
+    color: #131030;
+}
+#projets h2 {
+    color: #131030;
+    margin-top: 20px;
+}
+#projets p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #131030;
+}
+footer {
+    background-color: #131030;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9rem;
+    width: 100%;
+    margin-top: auto;
+}
+.slide-wrapper {
+    display: flex;
+}
+
+.slide-wrapper img {
+    width: 100%;
+    height: 500px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    #home h1 {
+        font-size: 2rem;
+    }
+    #competences p,
+    #projets p {
+        font-size: 1rem;
+    }
+}
+.texte {
+    font-style: oblique;
+    font-size: larger;
+}
+.container1 {
+    padding: 1%;
+}
+.slide-container {
+    margin-top: 6%;
+}
